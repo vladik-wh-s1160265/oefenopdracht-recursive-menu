@@ -11,17 +11,5 @@
  */
 function build_array_path($a, array $p)
 {
-    if (gettype($a) == 'string') {
-        return null;
-    }
-
-    foreach ($p as $v) {
-        if (array_key_exists($v, gettype($a) == 'array' ? $a : [])) {
-            $a = $a[$v];
-        } else {
-            return $a = null;
-        }
-    }
-
-    return $a;
+    return null;
 }
