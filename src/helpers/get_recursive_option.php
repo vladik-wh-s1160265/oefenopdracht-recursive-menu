@@ -3,6 +3,8 @@
 /**
  * Attempts to get a level recursive option from an array.
  *
+ * @uses build_array_path
+ *
  * @param array $options The options object.
  * @param string $default_key Default options key.
  * @param string $recursive_key Key that points to an array of index levels.

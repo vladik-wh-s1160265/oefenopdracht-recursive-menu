@@ -1,0 +1,32 @@
+<html><head>
+    <style>
+        .item-level-1 {
+            color: red;
+        }
+
+        .item-level-1.item-parent {
+            color: darkred;
+        }
+
+        .item-level-2 {
+            color: green;
+        }
+
+        .item-level-2.item-parent {
+            color: darkgreen;
+        }
+
+        .item-level-3 {
+            color: blue;
+        }
+
+        .item-level-3.item-parent {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+<ul><li id="item-1" class="item-level-1" data-id="1" data-level="1"><h1 class="title">A /a</h1></li><li id="item-2" class="item-level-1 item-parent" data-id="2" data-level="1"><h1 class="title">B /b→</h1><div class="main-menu"><ul><li id="item-3" class="item-level-2" data-id="3" data-level="2"><h2 class="title">BA /b/a</h2></li><li id="item-4" class="item-level-2" data-id="4" data-level="2"><h2 class="title">BB /b/b</h2></li></ul></div></li><li id="item-5" class="item-level-1 item-parent" data-id="5" data-level="1"><h1 class="title">C /c→</h1><div class="main-menu"><ul><li id="item-6" class="item-level-2 item-parent" data-id="6" data-level="2"><h2 class="title">CA /c/a→</h2><div class="sub-menu"><ul><li id="item-7" class="item-level-3 item-parent" data-id="7" data-level="3"><h3 class="title">CAA /c/a/a→</h3><div class="sub-menu"><ul><li id="item-8" class="item-level-4" data-id="8" data-level="4"><h3 class="title">CAAA /c/a/a/a</h3></li></ul></div></li><li id="item-9" class="item-level-3" data-id="9" data-level="3"><h3 class="title">CAB /c/a/b</h3></li></ul></div></li><li id="item-10" class="item-level-2" data-id="10" data-level="2"><h2 class="title">CB /c/b</h2></li></ul></div></li></ul>
+
+
+</body></html>

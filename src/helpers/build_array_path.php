@@ -3,6 +3,8 @@
 /**
  * Attempts to get a value from an array from a path array.
  *
+ * @uses gettype, array_key_exists
+ *
  * @param $a
  * @param array $p
  * @return mixed|null
